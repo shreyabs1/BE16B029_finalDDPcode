@@ -1,5 +1,5 @@
 # BE16B029_finalDDPcode
-Translation of T1 brain MR image to T2 brain MR image and vice versa using Generative Adversarial Network
+Translation of T1 brain MR image to T2 brain MR image and vice versa using Generative Adversarial Networks
 
 Dataset used in this thesis is MICCAI BRATS 2020 and CrossMoDA 2020 dataset.
 The raw image data in NIfTI (.nii.gz) is in a 3d image, "preprocessing.m" algorithm written in MATLAB has been implemented on each NIfTI file individually. This algorithm rotates the data in the direction we chose, and slice by slice each image is saved in the png format.
